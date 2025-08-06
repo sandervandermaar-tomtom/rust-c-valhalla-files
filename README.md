@@ -20,7 +20,7 @@ How to use
 1. Hard-code the path in the `ConstructEdges` function: https://github.com/valhalla/valhalla/blob/d825888825b3a296881a23c5de435a3c08723702/src/mjolnir/graphbuilder.cc#L154 . Modify the `way_nodes_file` variable (you will have to make the string a regular `string` variable instead of `const string &`, so we can change it directly in the source.
 1. Rebuild/setup valhalla
 1. Plan the same route ((51.81244720000001,4.669195900000005) to (51.81221930000001,4.668893200000014))
-1. Check the output, the route no longer follows the street, instead the middle of the route is move a bit more to the north-west
+1. Check the output, the route no longer follows the street, instead the middle of the route is moved a bit more to the north-west
 
 Images
 ---
