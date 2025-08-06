@@ -13,7 +13,7 @@ How to use
 1. Build valhalla
 1. Setup valhalla as usual, using the OSM map `dordt.osm.pbf`
 1. Plan a route from (51.81244720000001,4.669195900000005) to (51.81221930000001,4.668893200000014)
-1. Note it is a short straight line following "Regentenhof")
+1. Note it is a short straight line following "Regentenhof"
 1. Terminate valhalla
 1. Update the path to the generated `way_nodes.bin` file in this repository in the function `override_shape_point`
 1. `cargo run`
