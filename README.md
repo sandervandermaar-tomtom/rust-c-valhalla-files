@@ -1,7 +1,7 @@
 Intro
 ---
 
-This repo contains a Rust/C-interop wrapper around Valhalla's `ways.bin`, `way_nodes.bin`, and `nodes.bin` files. The business logic is written in Rust, but the actual reading/writing/updating of the structs by Valhalla (`OSMWay`, `OSMWayNode`, and `OSMNode`) is done in C. Since that code is compiled by a C compiler we don't have to worry about allignment and padding and we can easily use bitfields. This way we assure the memory layout is exactly like Valhalla expects it.
+This repo contains a Rust/C-interop wrapper around Valhalla's `ways.bin`, `way_nodes.bin`, and `nodes.bin` files. The business logic is written in Rust, but the actual reading/writing/updating of the structs used by Valhalla (`OSMWay`, `OSMWayNode`, and `OSMNode`) is done in C. Since that code is compiled by a C compiler we don't have to worry about allignment and padding and we can easily use bitfields. This way we assure the memory layout is exactly like Valhalla expects it.
 
 How to use
 ---
