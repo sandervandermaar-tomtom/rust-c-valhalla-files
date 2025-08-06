@@ -4,8 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-void osmnode_clear_and_set_to_regentenhof(struct OSMNode * s, uint64_t index);
-
 struct OSMWayNode * osmwaynode_new(uint64_t count)
 {
     struct OSMWayNode * output = malloc(sizeof(struct OSMWayNode) * count);
